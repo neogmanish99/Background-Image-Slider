@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto',sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./img/samurai-warrior-sunset-fantasy-art-0-4k-wallpaper-3840x2160-uhdpaper.com-487.0_a.jpg); */
+    background-position: center center;
+    background-size: cover;
+    transition: 0.4s ease;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 180px;
+    margin-top: 500px;
+}
+
+button{
+    border: none;
+    background-color: bisque;
+    padding:5px 15px;
+    border-radius:5px;
+}
+
+
+
+
